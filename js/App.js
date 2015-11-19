@@ -3,10 +3,10 @@
   var three = THREE.Bootstrap( options )
 
   // add light to our scene
-  var light = new THREE.DirectionalLight( 0xffffff, 1 )
-  light.position.set( 0, -4, -4 ).normalize()
-  three.scene.add( light )
-  var pointLight = new THREE.PointLight( 0xffffff, 1.5, 1000 )
+  var light = new THREE.DirectionalLight( 0xffffff, 1 );
+  light.position.set( 0, -4, -4 ).normalize();
+  three.scene.add( light );
+  var pointLight = new THREE.PointLight( 0xffffff, 1.5, 1000 );
   three.camera.add(pointLight)
 
   // Let Argon know that we are requiring Vuforia
